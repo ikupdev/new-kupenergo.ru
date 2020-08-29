@@ -57,7 +57,7 @@ a:hover, a:focus {
     font-size: 14px;
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 135px;
+    min-height: 135px;
 }
 
 .navbar-inverse {
@@ -85,6 +85,11 @@ a:hover, a:focus {
     padding-top: -10px;
 }
 
+
+navbar-brand-small-wrapper {
+    margin: 0 auto;
+}
+
 .contact-block {
     display: block;
     text-align: right;
@@ -98,4 +103,31 @@ a:hover, a:focus {
     color: #ccc;
 }
 
+@media (max-width: 768px) {
+    .navbar-brand-large {
+        display: none;
+    }
+    .navbar-brand-small-wrapper {
+        display: block;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .contact-block a {
+        font-size: 1.2em;
+    }
+
+    .navbar-collapse ul li {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .navbar-brand-small-wrapper {
+        display: none;
+    }
+}
 
