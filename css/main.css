@@ -132,3 +132,32 @@ navbar-brand-small-wrapper {
     }
 }
 
+/*#headerwrap {*/
+/*    background: url("../img/header-img.jpg") no-repeat center top;*/
+/*    margin-top: -10px;*/
+/*    padding-top: 20px;*/
+/*    text-align: center;*/
+/*    background-attachment: fixed;*/
+/*    background-position: center center;*/
+/*    min-height: 500px;*/
+/*    width: 100%;*/
+/*    max-width: 1280px;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: 100%;*/
+/*}*/
+
+.simple-slider {
+    display: block;
+    margin-top: 10px;
+}
+
+.slider-item img {
+    width: 100%;
+    padding: 10px;
+    max-width: 1280px;
+}
+
+
+
