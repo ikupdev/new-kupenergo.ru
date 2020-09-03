@@ -22,6 +22,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #333333;
 }
 
+
+
 p {
     line-height: 28px;
     margin-bottom: 5px;
@@ -165,5 +167,25 @@ navbar-brand-small-wrapper {
 .company-features {
     background:#fff;
     padding:10px 0 0 0;
+}
+
+.benefits {
+    background: #fff;
+    color: #5e5e5e;
+}
+@media (min-width: 870px) {
+    .benefits {
+        padding-left: 120px;
+    }
+}
+@media (max-width: 870px) {
+    .benefits {
+        padding-left: 30px;
+    }
+}
+
+
+h3 {
+    font-weight: bold;
 }
 
