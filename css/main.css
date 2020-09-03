@@ -162,5 +162,8 @@ navbar-brand-small-wrapper {
     max-width: 1280px;
 }
 
-
+.company-features {
+    background:#fff;
+    padding:10px 0 0 0;
+}
 
