@@ -60,26 +60,17 @@ a:hover, a:focus {
     min-height: 135px;
     max-width: 1280px;
     margin: 0 auto;
-    border-bottom-left-radius: unset;
-    border-bottom-right-radius: unset;
-
+    border-radius: unset;
 }
 
 .navbar-inverse {
-    background: #2d2d2d;
+    background: #80716e;
     border-color: #2d2d2d;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-    background: #ff7878;
+    background: #1b1b1b;
     border-radius: 3px;
-}
-
-.navbar-inverse .navbar-brand-large {
-    color: #999;
-    font-weight: bolder;
-    font-size: 22px;
-    letter-spacing: 1px;
 }
 
 .navbar-collapse {
@@ -90,6 +81,12 @@ a:hover, a:focus {
     padding-top: -10px;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: #cccccc;
+}
 
 navbar-brand-small-wrapper {
     margin: 0 auto;
@@ -101,7 +98,7 @@ navbar-brand-small-wrapper {
 }
 
 .contact-block a {
-    color: #7b7b7b;
+    color: #ffffff;
 }
 
 .contact-block a:hover {
@@ -170,8 +167,11 @@ navbar-brand-small-wrapper {
 }
 
 .benefits {
-    background: #fff;
+    background: #bbb5b5;
     color: #5e5e5e;
+    border-top: #554e4c 2px solid;
+    border-bottom: #554e4c 2px solid;
+
 }
 @media (min-width: 870px) {
     .benefits {
