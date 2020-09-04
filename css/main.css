@@ -4,7 +4,6 @@
 /*font-family: 'Raleway', sans-serif;*/
 
 body {
-    background: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -21,8 +20,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #333333;
 }
-
-
 
 p {
     line-height: 28px;
@@ -60,17 +57,29 @@ a:hover, a:focus {
     min-height: 135px;
     max-width: 1280px;
     margin: 0 auto;
+    border: unset;
     border-radius: unset;
 }
-
-.navbar-inverse {
-    background: #80716e;
-    border-color: #2d2d2d;
+.navbar-nav {
+    margin-top: 20px;
 }
-
+.navbar-toggle {
+    background: #5e5e5e;
+}
+.navbar-inverse {
+    background: #ffffff;
+}
+.navbar-inverse .navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .navbar-inverse .navbar-nav > .active > a {
-    background: #1b1b1b;
-    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: #5e5e5e solid 2px;
+    border-bottom: #5e5e5e solid 2px;
+    background: white;
+    color: black;
 }
 
 .navbar-collapse {
@@ -82,10 +91,10 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #ffffff;
+    color: #000000;
 }
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #cccccc;
+    color: #494949;
 }
 
 navbar-brand-small-wrapper {
@@ -98,11 +107,11 @@ navbar-brand-small-wrapper {
 }
 
 .contact-block a {
-    color: #ffffff;
+    color: #000000;
 }
 
 .contact-block a:hover {
-    color: #ccc;
+    color: #494949;
 }
 
 @media (max-width: 768px) {
@@ -167,7 +176,7 @@ navbar-brand-small-wrapper {
 }
 
 .benefits {
-    background: #bbb5b5;
+
     color: #5e5e5e;
     border-top: #554e4c 2px solid;
     border-bottom: #554e4c 2px solid;
