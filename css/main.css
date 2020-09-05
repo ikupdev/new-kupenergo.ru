@@ -308,3 +308,26 @@ h3 {
     background: #ffffff;
     padding-bottom: 40px;
 }
+
+.gallery {
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.img-gallery {
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+
+}
+
+.img-gallery img {
+    width:300px;
+    height:300px;
+    margin: 5px 5px;
+    object-fit:cover;
+    border-radius: 3px;
+    transition-duration:300ms;
+}
