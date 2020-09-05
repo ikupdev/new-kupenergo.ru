@@ -31,7 +31,9 @@ p {
 .centered {
     text-align: center;
 }
-
+.righted {
+    text-align: right;
+}
 a {
     color: #f85c37
 }
@@ -75,15 +77,17 @@ a:hover, a:focus {
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: 600;
+    color: #002f3d;
 
 }
 .navbar-inverse .navbar-nav > .active > a {
     padding-top: 5px;
     padding-bottom: 5px;
-    border-top: #5e5e5e solid 2px;
-    border-bottom: #5e5e5e solid 2px;
-    background: white;
-    color: black;
+    border: #5e5e5e solid 1px;
+    /*border-bottom: #5e5e5e solid 1px;*/
+    background: #e2e4e6;
+    border-radius: 3px;
+    color: #002f3d;
 }
 
 .navbar-collapse {
@@ -94,11 +98,8 @@ a:hover, a:focus {
     padding-top: -10px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
-    color: #000000;
-}
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #494949;
+    color: #FF898989;
 }
 
 navbar-brand-small-wrapper {
@@ -108,12 +109,13 @@ navbar-brand-small-wrapper {
 .contact-block {
     display: block;
     text-align: right;
+    color: #002f3d;
 }
 
 .contact-block a {
     font-family: "Lato";
     font-weight: 600;
-    color: #000000;
+    color: #002f3d;
 }
 
 .contact-block a:hover {
@@ -166,8 +168,8 @@ navbar-brand-small-wrapper {
 
 .simple-slider {
     display: block;
-    border-top: 2px solid #5e5e5e;
-    border-bottom: 2px solid #5e5e5e;
+    border-top: 1px solid #5e5e5e;
+    border-bottom: 1px solid #5e5e5e;
 
 }
 
@@ -188,11 +190,10 @@ navbar-brand-small-wrapper {
     padding: 25px 0;
     background: #fff;
     color: #5e5e5e;
-    border-top: #1B554E4C 2px solid;
-    border-bottom: #1B554E4C 2px solid;
+    border-bottom: #1B554E4C 4px solid;
 
 }
-@media (min-width: 870px) {
+@media (min-width: 1120px) {
     .benefits {
         padding-left: 120px;
         padding-right: 120px;
@@ -213,7 +214,7 @@ h3 {
 #content {
     background-color: #fff;
     padding-bottom: 10px;
-    border-bottom: #1B554E4C 2px solid;
+    border-bottom: #1B554E4C 4px solid;
 }
 
 .skill-home {
@@ -221,9 +222,12 @@ h3 {
 }
 
 .fields {
-    padding: 20px 0;
+    padding: 10px 0 20px 0;
+    padding-top: 20px;
     background: #fff;
-    border-bottom: #1B554E4C 2px solid;
+    border-bottom: #1B554E4C 4px solid;
+    border-top: #1B554E4C 4px solid;
+
 }
 
 .textimbox {
@@ -231,12 +235,19 @@ h3 {
     margin: 5px 0;
     padding: 1px 15px;
     border-radius: 3px;
+    border: #cbcbcb solid 1px;
 }
 .textimbox h3 {
     margin: 0;
     padding: 22px 0 14px;
     font-size: 18px;
 }
+
+.textimbox p {
+    font-family: "Raleway";
+    color:#333333 ;
+}
+
 .img-class {
     text-align: center;
 }
@@ -256,6 +267,7 @@ h3 {
 
 .links > ul > li > a {
     text-decoration: none;
+    font-size: 14px;
 }
 .links span {
     display: block;
@@ -264,6 +276,13 @@ h3 {
 }
 
 .footer-contacts a {
+    font-family: "Lato";
     font-size: 14px;
     color: #5e5e5e;
 }
+.footer-contacts {
+    padding-top:10px;
+    padding-left: 20px;
+    display: block;
+}
+
