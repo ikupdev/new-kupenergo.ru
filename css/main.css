@@ -4,15 +4,15 @@
 /*font-family: 'Raleway', sans-serif;*/
 
 body {
-    font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #b4b0b0;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    margin-top: 70px;
+    /*margin-top: 70px;*/
     max-width: 1280px;
     margin: 0 auto;
+    background: #f2f2f2;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
+    font-family: "Raleway";
+    font-weight: 300;
     line-height: 28px;
     margin-bottom: 5px;
 }
@@ -72,6 +74,8 @@ a:hover, a:focus {
 .navbar-inverse .navbar-nav > li > a {
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: 600;
+
 }
 .navbar-inverse .navbar-nav > .active > a {
     padding-top: 5px;
@@ -107,6 +111,8 @@ navbar-brand-small-wrapper {
 }
 
 .contact-block a {
+    font-family: "Lato";
+    font-weight: 600;
     color: #000000;
 }
 
@@ -172,11 +178,15 @@ navbar-brand-small-wrapper {
 
 .company-features {
     background:#fff;
-    padding:10px 0 0 0;
+    padding:35px 0 0 0;
+}
+.container-benefits p {
+        font-size: 19px;
 }
 
 .benefits {
-
+    padding: 25px 0;
+    background: #fff;
     color: #5e5e5e;
     border-top: #1B554E4C 2px solid;
     border-bottom: #1B554E4C 2px solid;
@@ -185,6 +195,8 @@ navbar-brand-small-wrapper {
 @media (min-width: 870px) {
     .benefits {
         padding-left: 120px;
+        padding-right: 120px;
+
     }
 }
 @media (max-width: 870px) {
@@ -198,11 +210,60 @@ h3 {
     font-weight: bold;
 }
 
+#content {
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-bottom: #1B554E4C 2px solid;
+}
+
 .skill-home {
-    padding: 40px 20px;
+    padding: 40px 20px 10px 20px;
 }
 
 .fields {
-    padding:20px 0;
+    padding: 20px 0;
+    background: #fff;
+    border-bottom: #1B554E4C 2px solid;
 }
 
+.textimbox {
+    background-color: #EFEFEF;
+    margin: 5px 0;
+    padding: 1px 15px;
+    border-radius: 3px;
+}
+.textimbox h3 {
+    margin: 0;
+    padding: 22px 0 14px;
+    font-size: 18px;
+}
+.img-class {
+    text-align: center;
+}
+.direction-img {
+    width: 280px;
+    padding: 15px 0;
+}
+.footer {
+    background: #ebecec;
+}
+
+.footer-container{
+    padding: 20px;
+    border-top: #a5a5a5;
+    border-radius: 3px;
+}
+
+.links > ul > li > a {
+    text-decoration: none;
+}
+.links span {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.footer-contacts a {
+    font-size: 14px;
+    color: #5e5e5e;
+}
