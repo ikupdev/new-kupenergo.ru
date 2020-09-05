@@ -213,6 +213,10 @@ h3 {
     border-top: #1B554E4C 4px solid;
 }
 
+.fields-block {
+    padding-bottom: 5px;
+}
+
 .textimbox {
     background-color: #EFEFEF;
     margin: 5px 0;
@@ -282,10 +286,11 @@ h3 {
 }
 
 .page-contacts {
-    padding: 0px 50px 240px 20px;
+    padding: 0 50px 240px 20px;
     border-top: #1B554E4C 4px solid;
     border-bottom: #1B554E4C 4px solid;
     background: #ffffff;
+    font-size: 20px;
 }
 
 .page-contacts p {
@@ -299,5 +304,7 @@ h3 {
 
 .page-projects-content {
     border-top: #1B554E4C 4px solid;
+    border-bottom: #1B554E4C 4px solid;
     background: #ffffff;
+    padding-bottom: 40px;
 }
