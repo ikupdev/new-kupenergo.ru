@@ -178,8 +178,8 @@ navbar-brand-small-wrapper {
 .benefits {
 
     color: #5e5e5e;
-    border-top: #554e4c 2px solid;
-    border-bottom: #554e4c 2px solid;
+    border-top: #1B554E4C 2px solid;
+    border-bottom: #1B554E4C 2px solid;
 
 }
 @media (min-width: 870px) {
@@ -196,5 +196,13 @@ navbar-brand-small-wrapper {
 
 h3 {
     font-weight: bold;
+}
+
+.skill-home {
+    padding: 40px 20px;
+}
+
+.fields {
+    padding:20px 0;
 }
 

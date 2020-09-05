@@ -1,11 +1,11 @@
 class Slider {
-	
+
 	constructor(delay = 0) {
 		this.block = document.querySelector('#slider');
 		this.items = document.querySelectorAll('.slider-item');
 		this.dots = [...document.querySelectorAll('.dot')];
 		this.prev = document.querySelector('.prev');
-		this.next = document.querySelector('.next');		
+		this.next = document.querySelector('.next');
 		this.delay = delay;
 		this.current = 0;
 		this._init();
@@ -43,7 +43,7 @@ class Slider {
 
 	_renderFrame() {
 		this.items[this.current].style.display = 'block';
-		this.dots[this.current].classList.add('dot-active');		
+		this.dots[this.current].classList.add('dot-active');
 	}
 
 	_dotPress({target}) {
@@ -57,5 +57,5 @@ class Slider {
 
 window.addEventListener('DOMContentLoaded', () => {
 
-	let slider = new Slider(3000);
+	let slider = new Slider(5000);
 });
