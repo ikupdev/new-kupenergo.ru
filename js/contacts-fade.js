@@ -1,5 +1,5 @@
 $(window).ready(function () {
-    $('.navbar').fadeIn(200);
-    $('.page-contacts').fadeIn(200);
-    $('.footer').fadeIn(500);
+    $('.navbar').fadeIn(500);
+    $('.page-contacts').fadeIn(600);
+    $('.footer').fadeIn(700);
 });
