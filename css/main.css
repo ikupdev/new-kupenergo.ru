@@ -52,7 +52,7 @@ a:hover, a:focus {
 
 .navbar {
     font-weight: 800;
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
     min-height: 135px;
@@ -61,6 +61,8 @@ a:hover, a:focus {
     border: unset;
     border-radius: unset;
     display: none;
+    border-left: #cbcbcb solid 1px;
+    border-right: #cbcbcb solid 1px;
 }
 .navbar-nav {
     margin-top: 20px;
@@ -90,6 +92,12 @@ a:hover, a:focus {
     border-radius: 3px;
     color: #002f3d;
     transition: 100ms linear;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover{
+    background:  #5e5e5e;
+
+
 }
 
 .navbar-collapse {
@@ -136,7 +144,7 @@ navbar-brand-small-wrapper {
     }
 
     .contact-block a {
-        font-size: 1.2em;
+        font-size: 1.4em;
     }
 
     .navbar-collapse ul li {
@@ -167,6 +175,8 @@ navbar-brand-small-wrapper {
     display: none;
     background:#fff;
     padding:35px 0 0 0;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
 }
 
 .container-benefits p {
@@ -178,7 +188,9 @@ navbar-brand-small-wrapper {
     padding: 25px 0;
     background: #fff;
     color: #5e5e5e;
-    border-bottom: #1B554E4C 4px solid;
+    border-bottom: #1B554E4C 2px solid;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
 
 }
 
@@ -205,7 +217,9 @@ h3 {
     display: none;
     background-color: #fff;
     padding-bottom: 10px;
-    border-bottom: #1B554E4C 4px solid;
+    border-bottom: #1B554E4C 2px solid;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
 }
 
 .skill-home {
@@ -217,8 +231,10 @@ h3 {
     padding: 10px 0 20px 0;
     padding-top: 20px;
     background: #fff;
-    border-bottom: #1B554E4C 4px solid;
-    border-top: #1B554E4C 4px solid;
+    border-bottom: #1B554E4C 2px solid;
+    border-top: #1B554E4C 2px solid;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
 }
 
 .fields-block {
@@ -239,7 +255,7 @@ h3 {
 
 .textimbox h3 {
     margin: 0;
-    padding: 22px 0 14px;
+    padding: 22px 0 12px;
     font-size: 18px;
 }
 
@@ -260,7 +276,16 @@ h3 {
 .footer {
     display: none;
     background: #ebecec;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
+    border-bottom: #cbcbcb solid 1px;
+
 }
+
+.advantages {
+    color: #333333;
+}
+
 
 .footer-container{
     padding: 20px;
@@ -270,7 +295,7 @@ h3 {
 
 .links > ul > li > a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .links span {
@@ -281,7 +306,7 @@ h3 {
 
 .footer-contacts a {
     font-family: "Lato";
-    font-size: 14px;
+    font-size: 12px;
     color: #5e5e5e;
 }
 
@@ -301,8 +326,8 @@ h3 {
 .page-contacts {
     display: none;
     padding: 0 50px 240px 20px;
-    border-top: #1B554E4C 4px solid;
-    border-bottom: #1B554E4C 4px solid;
+    border-top: #1B554E4C 2px solid;
+    border-bottom: #1B554E4C 2px solid;
     background: #ffffff;
     font-size: 20px;
 }
@@ -318,8 +343,11 @@ h3 {
 
 .page-projects-content {
     display: none;
-    border-top: #1B554E4C 4px solid;
-    border-bottom: #1B554E4C 4px solid;
+    border-top: #cbcbcb 2px solid;
+    border-bottom: #cbcbcb 2px solid;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
+
     background: #ffffff;
     padding-bottom: 40px;
 }
