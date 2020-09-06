@@ -328,6 +328,8 @@ h3 {
     padding: 0 50px 240px 20px;
     border-top: #1B554E4C 2px solid;
     border-bottom: #1B554E4C 2px solid;
+    border-left: #cbcbcb solid 1px;
+    border-right: #cbcbcb solid 1px;
     background: #ffffff;
     font-size: 20px;
 }
