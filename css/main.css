@@ -60,6 +60,7 @@ a:hover, a:focus {
     margin: 0 auto;
     border: unset;
     border-radius: unset;
+    display: none;
 }
 .navbar-nav {
     margin-top: 20px;
@@ -77,8 +78,9 @@ a:hover, a:focus {
     padding-bottom: 5px;
     font-weight: 600;
     color: #002f3d;
-
+    transition: 100ms linear;
 }
+
 .navbar-inverse .navbar-nav > .active > a {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -87,6 +89,7 @@ a:hover, a:focus {
     background: #e2e4e6;
     border-radius: 3px;
     color: #002f3d;
+    transition: 100ms linear;
 }
 
 .navbar-collapse {
@@ -98,7 +101,8 @@ a:hover, a:focus {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-    color: #FF898989;
+    color: #929292;
+    transition: 100ms linear;
 }
 
 navbar-brand-small-wrapper {
@@ -149,7 +153,7 @@ navbar-brand-small-wrapper {
 }
 
 .simple-slider {
-    display: block;
+    display: none;
     border-top: 1px solid #5e5e5e;
     border-bottom: 1px solid #5e5e5e;
 }
@@ -160,6 +164,7 @@ navbar-brand-small-wrapper {
 }
 
 .company-features {
+    display: none;
     background:#fff;
     padding:35px 0 0 0;
 }
@@ -169,6 +174,7 @@ navbar-brand-small-wrapper {
 }
 
 .benefits {
+    display: none;
     padding: 25px 0;
     background: #fff;
     color: #5e5e5e;
@@ -196,6 +202,7 @@ h3 {
 }
 
 #content {
+    display: none;
     background-color: #fff;
     padding-bottom: 10px;
     border-bottom: #1B554E4C 4px solid;
@@ -206,6 +213,7 @@ h3 {
 }
 
 .fields {
+    display: none;
     padding: 10px 0 20px 0;
     padding-top: 20px;
     background: #fff;
@@ -246,6 +254,7 @@ h3 {
 }
 
 .footer {
+    display: none;
     background: #ebecec;
 }
 
@@ -286,6 +295,7 @@ h3 {
 }
 
 .page-contacts {
+    display: none;
     padding: 0 50px 240px 20px;
     border-top: #1B554E4C 4px solid;
     border-bottom: #1B554E4C 4px solid;
@@ -303,6 +313,7 @@ h3 {
 }
 
 .page-projects-content {
+    display: none;
     border-top: #1B554E4C 4px solid;
     border-bottom: #1B554E4C 4px solid;
     background: #ffffff;
@@ -330,4 +341,7 @@ h3 {
     object-fit:cover;
     border-radius: 3px;
     transition-duration:300ms;
+}
+.img-gallery img:hover {
+    width: 310px;
 }

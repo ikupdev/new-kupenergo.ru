@@ -144,30 +144,12 @@
     </div>
 </section>
 
-<!--<script type="text/javascript" src="js/jquery-3.3.1.js"></script>-->
 <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
 <script src="magnific/dist/jquery.magnific-popup.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/projects-fade.js"></script>
 
-<script>
-    $(document).ready(function ($) {
-        $('.img-gallery').magnificPopup({
-            delegate: 'a',
-            type: 'image',
-            tLoading: 'Loading image #%curr%...',
-            mainClass: 'mfp-img-mobile',
-            gallery: {
-                enabled: true,
-                navigateByImgClick: true,
-                preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-            },
-            image: {
-                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                titleSrc: function (item) {
-                }
-            }
-        });
-    });
-</script>
+
 </body>
 </html>
