@@ -10,6 +10,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     background: #f2f2f2;
+    box-shadow: 0 0 3px rgba(122,122,122,0.5);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,7 +61,6 @@ a:hover, a:focus {
     margin: 0 auto;
     border: unset;
     border-radius: unset;
-    display: none;
     border-left: #cbcbcb solid 1px;
     border-right: #cbcbcb solid 1px;
 }
@@ -174,10 +174,62 @@ navbar-brand-small-wrapper {
 .company-features {
     display: none;
     background:#fff;
-    padding:35px 0 0 0;
+    padding:30px 0 35px 0;
     border-right: #cbcbcb solid 1px;
     border-left: #cbcbcb solid 1px;
 }
+
+.features-ul-block {
+    margin: 15px auto;
+    align-content: center;
+}
+
+.features-ul {
+    text-align: center;
+}
+
+.features-ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.electrotext {
+    font-family: Raleway;
+    color:#333333;
+    font-size: 20px;
+    padding-left:35px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.features-icon {
+    margin: 5px;
+    width: auto;
+    max-width: 220px;
+    height: 70px;
+    background: #fff;
+    display: flex;
+}
+
+.features-icon:hover {
+}
+
+.features-icon div img {
+    display: block;
+    text-align: left;
+    padding: 2px 5px 2px 2px;
+}
+
+.features-icon div {
+    font-family: Raleway;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin: auto 4px auto;
+    color:#333333;
+    line-height: 1.2;
+}
+
 
 .container-benefits p {
         font-size: 19px;
@@ -279,7 +331,7 @@ h3 {
     border-right: #cbcbcb solid 1px;
     border-left: #cbcbcb solid 1px;
     border-bottom: #cbcbcb solid 1px;
-
+    margin-bottom: 10px;
 }
 
 .advantages {
@@ -369,14 +421,20 @@ h3 {
 }
 
 .img-gallery img {
+    padding: 5px;
     width:300px;
     height:300px;
     margin: 5px 5px;
     object-fit:cover;
-    border-radius: 3px;
-    transition-duration:200ms;
+    border: none;
 }
 .img-gallery img:hover {
-    width: 305px;
-    height:305px;
+    border-bottom: 1px solid #cbcbcb;
+    transition-duration:500ms;
+
+}
+
+.services {
+    font-family: "Raleway";
+    color: #333333;
 }

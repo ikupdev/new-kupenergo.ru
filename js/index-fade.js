@@ -1,5 +1,4 @@
 $(window).ready(function () {
-    $('.navbar').fadeIn(500);
     $('.simple-slider').fadeIn(600);
     $('.company-features').fadeIn(700);
     $('.fields').fadeIn(800);
