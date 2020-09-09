@@ -210,7 +210,8 @@ navbar-brand-small-wrapper {
     display: flex;
 }
 
-.features-icon:hover {
+.features-ul-wrap {
+    margin: 0 auto;
 }
 
 .features-icon div img {
@@ -229,6 +230,25 @@ navbar-brand-small-wrapper {
     line-height: 1.2;
 }
 
+@media (max-width: 1010px) {
+
+    .features-ul {
+        margin-left: -25px;
+    }
+
+    .features-ul > li {
+        display:block;
+    }
+    .features-ul-wrap {
+        width: 400px;
+    }
+
+    .features-icon {
+        width: auto;
+        max-width: 320px;
+    }
+
+}
 
 .container-benefits p {
         font-size: 19px;
