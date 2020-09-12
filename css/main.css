@@ -321,7 +321,12 @@ h3 {
 }
 
 .textimbox-maintext {
-    padding: 1px 15px;
+    padding-top: 10px;
+    padding-left:  25px;
+    padding-right:  25px;
+}
+.bold {
+    font-weight: bold;
 }
 
 .textimbox h3 {
@@ -435,18 +440,18 @@ h3 {
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content:space-around;
+    justify-content:center;
 
 }
 
 .img-gallery img {
     padding: 5px;
-    width:300px;
-    height:300px;
+    width:220px;
+    height:220px;
     margin: 5px 5px;
     object-fit:cover;
-    border: none;
 }
+
 .img-gallery img:hover {
     border-bottom: 1px solid #cbcbcb;
     transition-duration:500ms;
