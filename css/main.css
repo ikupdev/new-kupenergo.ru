@@ -467,9 +467,25 @@ h3 {
 }
 
 .box-examples {
+    display: none;
     background: #fff;
     padding: 10px 15px;
     border-bottom: #1B554E4C 2px solid;
     border-right: #cbcbcb solid 1px;
     border-left: #cbcbcb solid 1px;
+}
+
+.call-to-us {
+    display: none;
+    text-align: center;
+    color: black;
+    background: #fff;
+    padding: 10px 15px;
+    border-bottom: #1B554E4C 2px solid;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
+}
+
+.main-block {
+
 }

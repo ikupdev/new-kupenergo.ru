@@ -5,4 +5,6 @@ $(window).ready(function () {
     $('#content').fadeIn(900);
     $('.footer').fadeIn(900);
     $('.benefits').fadeIn(900);
+    $('.box-examples').fadeIn(1000);
+    $('.call-to-us').fadeIn(1100);
 });
