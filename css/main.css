@@ -96,8 +96,6 @@ a:hover, a:focus {
 
 .navbar-inverse .navbar-nav > .active > a:hover{
     background:  #5e5e5e;
-
-
 }
 
 .navbar-collapse {
@@ -161,7 +159,7 @@ navbar-brand-small-wrapper {
 }
 
 .simple-slider {
-    display: none;
+    display: block;
     border-top: 1px solid #5e5e5e;
     border-bottom: 1px solid #5e5e5e;
 }
@@ -171,7 +169,6 @@ navbar-brand-small-wrapper {
 }
 
 .company-features {
-    display: none;
     background:#fff;
     padding:30px 0 35px 0;
     border-right: #cbcbcb solid 1px;
@@ -258,7 +255,7 @@ navbar-brand-small-wrapper {
 }
 
 .benefits {
-    display: none;
+    display: block;
     padding: 25px 0;
     background: #fff;
     color: #5e5e5e;
@@ -288,7 +285,7 @@ h3 {
 }
 
 #content {
-    display: none;
+    display: block;
     background-color: #fff;
     padding-bottom: 10px;
     border-bottom: #1B554E4C 2px solid;
@@ -301,7 +298,7 @@ h3 {
 }
 
 .fields {
-    display: none;
+    display: block;;
     padding: 10px 0 20px 0;
     padding-top: 20px;
     background: #fff;
@@ -353,7 +350,7 @@ h3 {
 }
 
 .footer {
-    display: none;
+    display: block;;
     background: #ebecec;
     border-right: #cbcbcb solid 1px;
     border-left: #cbcbcb solid 1px;
@@ -403,7 +400,7 @@ h3 {
 }
 
 .page-contacts {
-    display: none;
+    display: block;;
     padding: 0 50px 240px 20px;
     border-top: #1B554E4C 2px solid;
     border-bottom: #1B554E4C 2px solid;
@@ -423,7 +420,7 @@ h3 {
 }
 
 .page-projects-content {
-    display: none;
+    display: block;;
     border-top: #cbcbcb 2px solid;
     border-bottom: #cbcbcb 2px solid;
     border-right: #cbcbcb solid 1px;
@@ -467,7 +464,7 @@ h3 {
 }
 
 .box-examples {
-    display: none;
+    display: block;
     background: #fff;
     padding: 10px 15px;
     border-bottom: #1B554E4C 2px solid;
@@ -476,7 +473,7 @@ h3 {
 }
 
 .call-to-us {
-    display: none;
+    display: block;
     text-align: center;
     color: black;
     background: #fff;
@@ -487,5 +484,5 @@ h3 {
 }
 
 .main-block {
-
+    display: none;
 }
