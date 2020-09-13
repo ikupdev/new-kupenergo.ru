@@ -465,3 +465,11 @@ h3 {
     font-family: "Raleway";
     color: #333333;
 }
+
+.box-examples {
+    background: #fff;
+    padding: 10px 15px;
+    border-bottom: #1B554E4C 2px solid;
+    border-right: #cbcbcb solid 1px;
+    border-left: #cbcbcb solid 1px;
+}
