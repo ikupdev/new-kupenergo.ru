@@ -1,3 +1,3 @@
 $(window).ready(function () {
-    $('.main-block').fadeIn(600);
+    $('.main-block').fadeIn(300);
 });
